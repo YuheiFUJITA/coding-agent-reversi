@@ -17,6 +17,9 @@
   ],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "packageManager": "pnpm@10.11.1",
   "dependencies": {
     "vue": "^3.5.16"

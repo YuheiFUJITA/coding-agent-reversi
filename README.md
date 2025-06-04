@@ -20,11 +20,33 @@ Vue 3 + TypeScript + Tailwind CSSで作られたリバーシゲームです。
 
 ## セットアップ
 
+### 必要な環境
+
+- **Node.js**: 18.0.0 以上
+- **pnpm**: 8.0.0 以上 (推奨)
+
+### GitHub Codespaces での開発 (推奨)
+
+このリポジトリはGitHub Codespacesで即座に開発環境をセットアップできます：
+
+1. GitHubでこのリポジトリを開く
+2. 緑の「Code」ボタンをクリック
+3. 「Codespaces」タブを選択
+4. 「Create codespace on main」をクリック
+
+Codespacesでは以下が自動で設定されます：
+- Node.js 20.x
+- pnpm
+- 必要なVS Code拡張機能
+- 依存関係の自動インストール
+
+### ローカル開発環境
+
 ```bash
 # 依存関係のインストール
 pnpm install
 
-# 開発サーバー起動
+# 開発サーバー起動 (http://localhost:5173)
 pnpm dev
 
 # ビルド
